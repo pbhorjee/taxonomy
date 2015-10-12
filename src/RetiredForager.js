@@ -20,3 +20,5 @@ RetiredForagerBee.prototype = {
     this.treasureChest.push(treasure);
   },
 };
+
+RetiredForagerBee.prototype.constructor = RetiredForagerBee;
